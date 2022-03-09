@@ -7,4 +7,29 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FF8000</color>
+    <color name="faded_orange">#FEF1E4</color>
+    <color name="grey">#909BA3</color>
+    <color name="dark_grey">#5F5F5F</color>
+    <color name="light_grey">#CED3D6</color>
+    <color name="red">#E83330</color>
+    <color name="green">#43A047</color>
+    <color name="faded_green">#DCF5DE</color>
+    <color name="dark_blue">#295B9B</color>
+    <color name="light_blue">#4891F0</color>
+    <color name="faded_blue">#9DC0EF</color>
+    <color name="muted_blue">#EEF5FF</color>
+    <color name="theme_color">#3B82DE</color>
+    <color name="hint_text_color">#D0D8DC</color>
+    <color name="color_background">#F5F8FA</color>
+    <color name="color_border">#EBEEF0</color>
+    <color name="transparent_theme_color">#803B82DE</color>
+    <color name="image_overlay_color">#B3000000</color>
+    <color name="image_overlay_color2">#FF000000</color>
+    <color name="default_divider">#E6E8EB</color>
+    <color name="dash_border_color">#D0D8DC</color>
+    <color name="barcode_reticle_stroke">#40000000</color>
+    <color name="barcode_error_reticle_stroke">#40FF0000</color>
+    <color name="reticle_ripple">#9AFFFFFF</color>
+
 </resources>
