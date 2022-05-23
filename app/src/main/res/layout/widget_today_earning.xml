@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/default_16dp"
+    android:layout_marginTop="@dimen/default_16dp"
+    android:paddingEnd="@dimen/default_16dp"
+    android:paddingBottom="@dimen/default_24dp">
+
+    <RelativeLayout
+        android:id="@+id/quickActionRl"
+        android:alpha="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/todayBackIv"
+            android:layout_width="48dp"
+            android:layout_height="@dimen/default_48dp"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/default_12dp"
+            android:paddingStart="@dimen/default_8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_back_black" />
+
+        <TextView
+            style="@style/FontInterBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/default_12dp"
+            android:layout_marginTop="@dimen/default_14dp"
+            android:layout_marginBottom="@dimen/default_14dp"
+            android:layout_toEndOf="@+id/todayBackIv"
+            android:text="@string/quick_actions"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_20sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/todayEarningTitle"
+        style="@style/FontInterSemiBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_2dp"
+        android:text="@string/today_s_earnings"
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/font_14sp" />
+
+
+    <RelativeLayout
+        android:id="@+id/earningsRl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/todayEarningTitle">
+
+        <ImageView
+            android:id="@+id/eyeOpenIv"
+            android:layout_width="@dimen/default_24dp"
+            android:layout_height="@dimen/default_24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/default_4dp"
+            android:src="@drawable/ic_eye_enable" />
+
+        <TextView
+            android:id="@+id/viewTv"
+            style="@style/FontInterBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/eyeOpenIv"
+            android:text="@string/view"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_20sp" />
+
+        <TextView
+            android:id="@+id/amountTv"
+            style="@style/FontInterBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/default_8dp"
+            android:text="$3,406"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_20sp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/eyeCloseIv"
+            android:layout_width="@dimen/default_24dp"
+            android:layout_height="@dimen/default_24dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/amountTv"
+            android:src="@drawable/ic_eye_disable"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/questFlagIv"
+        android:layout_width="@dimen/default_48dp"
+        android:layout_height="@dimen/default_48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="@dimen/default_16dp"
+        android:layout_toStartOf="@id/moreTv"
+        android:background="@drawable/ic_quest_flag" />
+
+    <TextView
+        android:id="@+id/moreTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:drawablePadding="@dimen/default_2dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/more"
+        android:layout_marginTop="18dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_16sp"
+        app:drawableEndCompat="@drawable/ic_black_arrow_up" />
+
+
+</RelativeLayout>

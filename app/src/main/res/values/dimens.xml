@@ -81,7 +81,7 @@
     <dimen name="default_27dp">27dp</dimen>
     <dimen name="default_28dp">28dp</dimen>
     <dimen name="ride_info_sheet_peek_height">196dp</dimen>
-    <dimen name="today_peek_height">70dp</dimen>
+    <dimen name="today_peek_height">80dp</dimen>
     <dimen name="leader_board_initial_size">24sp</dimen>
     <dimen name="food_bottomsheet_peek_height">210dp</dimen>
     <dimen name="default_23dp">23dp</dimen>

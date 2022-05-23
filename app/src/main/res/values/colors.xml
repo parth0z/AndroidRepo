@@ -31,5 +31,6 @@
     <color name="barcode_reticle_stroke">#40000000</color>
     <color name="barcode_error_reticle_stroke">#40FF0000</color>
     <color name="reticle_ripple">#9AFFFFFF</color>
+    <color name="color_dark_grey">#5A6770</color>
 
 </resources>

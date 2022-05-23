@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bottomsheet.TodaysBottomSheet">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/todayWidgetCv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/default_16dp">
+
+        <com.example.experimentwithandroid.bottomsheet.TodayBottomSheetWidget
+            android:id="@+id/todayWidget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/default_2dp"
+            android:visibility="visible" />
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/todayWidgetCv"
+        android:layout_marginTop="-16dp"
+        android:background="@color/faded_blue" />
+
+</RelativeLayout>

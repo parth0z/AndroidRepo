@@ -22,4 +22,22 @@
     <style name="Theme.ExperimentWithAndroid.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.ExperimentWithAndroid.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FontInterBold" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">@font/inter_bold</item>
+    </style>
+
+    <style name="FontInterSemiBold" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">@font/inter_medium</item>
+    </style>
+
+    <style name="FontInterRegular" parent="@android:style/Widget.TextView">
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+
+    <style name="NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
 </resources>

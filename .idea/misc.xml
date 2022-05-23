@@ -3,16 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/bg_bottom_radius.xml" value="0.1295" />
+        <entry key="app/src/main/res/drawable/bg_top_radius.xml" value="0.185482177734375" />
         <entry key="app/src/main/res/drawable/ic_arrow_right.xml" value="0.1685" />
+        <entry key="app/src/main/res/drawable/ic_back_black.xml" value="0.1295" />
+        <entry key="app/src/main/res/drawable/ic_eye_disable.xml" value="0.1315" />
+        <entry key="app/src/main/res/drawable/ic_eye_enable.xml" value="0.1315" />
         <entry key="app/src/main/res/drawable/line_divider.xml" value="0.1685" />
+        <entry key="app/src/main/res/drawable/shape_round_rectangle.xml" value="0.1315" />
+        <entry key="app/src/main/res/layout/activity_host.xml" value="0.3181961059570313" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_service_initializer.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_translation_animation.xml" value="0.5" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_todays_bottom_sheet.xml" value="0.230194091796875" />
         <entry key="app/src/main/res/layout/item_title_topic.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/widget_today_earning.xml" value="0.22801208496093753" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
